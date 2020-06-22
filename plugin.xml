@@ -40,9 +40,9 @@
         <!-- iOS -->
 
     <platform name="ios">
-     <edit-config file="*-Info.plist" mode="merge" target="UIUserInterfaceStyle">
+     <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
       <string>Light</string>
-    </edit-config>
+    </config-file>
     <config-file target="config.xml" parent="/*">
       <feature name="ImageCompressor">
         <param name="ios-package" value="base64Compression" />
