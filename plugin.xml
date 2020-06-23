@@ -42,6 +42,8 @@
     <platform name="ios">
      <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
       <string>Light</string>
+      <config-file target="*Info.plist" parent="NSCameraUsageDescription">
+      <string>Camera access is required for capturing your profile pic and creating posts</string>
     </config-file>
     <config-file target="config.xml" parent="/*">
       <feature name="ImageCompressor">
