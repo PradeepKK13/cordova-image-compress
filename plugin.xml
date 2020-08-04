@@ -66,6 +66,10 @@
       <config-file target="*Info.plist" parent="NSCameraUsageDescription">
       <string>Camera access is required for capturing your profile pic and creating posts</string>
     </config-file>
+	    
+    <config-file target="*Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+      <string>Photo access is required for saving the files downloaded from application</string>
+    </config-file>
         
     <config-file target="config.xml" parent="/*">
       <feature name="ImageCompressor">
