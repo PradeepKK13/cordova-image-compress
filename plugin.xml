@@ -31,7 +31,7 @@
           <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
           <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <!--<config-file target="AndroidManifest.xml" parent="/manifest/application">
 		<meta-data android:name="com.onesignal.BadgeCount" android:value="DISABLE" />
 	</config-file>	
 	    <config-file target="AndroidManifest.xml" parent="/manifest">
@@ -49,7 +49,7 @@
             <uses-permission android:name="android.permission.READ_APP_BADGE" tools:node="remove" />
             <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" tools:node="remove" />
             <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" tools:node="remove" />
-		</config-file>	
+		</config-file>	-->
 
       <source-file src="src/android/ImageCompressor.java" target-dir="src/com/cordova/imgcompressor"/>
 
