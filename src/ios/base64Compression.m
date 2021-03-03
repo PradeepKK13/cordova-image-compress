@@ -33,10 +33,10 @@
     
 	//resize the image & re-transfer to NSData
     //base64Compression * instance1=[ [base64Compression alloc]init];
-    UIImage* resized = [[self class] resizeImage:image width:image.size.width  height:image.size.height]; 
+    //UIImage* resized = [[self class] resizeImage:image width:image.size.width  height:image.size.height]; 
 	
 	//set your dimensions as per request.
-    NSData* pictureData = UIImageJPEGRepresentation(resized, 0.25f); // set compression ratio as per your request.
+    NSData* pictureData = UIImageJPEGRepresentation(image, 0.25f); // set compression ratio as per your request.
 
     //this is final endoced base64 string which have appropriate compressed image
 
